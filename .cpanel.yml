@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/z0mdghu8/public_html/
+    - /bin/cp /public/index.php $DEPLOYPATH
+    - /bin/cp /public/app.css $DEPLOYPATH
